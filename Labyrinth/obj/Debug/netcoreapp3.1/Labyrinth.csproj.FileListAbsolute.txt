@@ -1,0 +1,13 @@
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.csprojAssemblyReference.cache
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.AssemblyInfoInputs.cache
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.AssemblyInfo.cs
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.csproj.CoreCompileInputs.cache
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.exe
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.deps.json
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.runtimeconfig.json
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.runtimeconfig.dev.json
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.dll
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\bin\Debug\netcoreapp3.1\Labyrinth.pdb
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.dll
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.pdb
+E:\7o_semestre\IA\Labyrinth\Labyrinth\Labyrinth\obj\Debug\netcoreapp3.1\Labyrinth.genruntimeconfig.cache
