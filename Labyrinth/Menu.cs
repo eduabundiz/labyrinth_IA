@@ -16,7 +16,7 @@ namespace Labyrinth
 
             do
             {
-                lab.Readlabyrinth();
+                lab.Readlabyrinth(); //Lectura del archivo .txt para agregarlo a nuestra matriz
                 Console.WriteLine(" \t 8 puzzle - Algoritmos de búsqueda\n" +
                     "1) Amplitud\n" +
                     "2) Profundidad\n" +

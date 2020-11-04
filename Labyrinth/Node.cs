@@ -69,9 +69,10 @@ namespace Labyrinth
             }
         }
 
+        //Obtiene los posibles hijos
         public void ExpandNode()
         {
-            asignPosition();
+            asignPosition(); //Asigna la posición en donde está el cursor (2)
             MoveToRigth(Puzzle, this.posRow, this.posCol);
             MoveToLEft(Puzzle, this.posRow, this.posCol);
             MoveToUp(Puzzle, this.posRow, this.posCol);
@@ -141,7 +142,7 @@ namespace Labyrinth
         }
         #region Movimientos Derecha, Izquierda, Abajo y Arriba
         //Mover a la derecha y obtener hijos posibles
-        public void MoveToRigth(int[,] value, int row, int col) //Recibe el puzle actual y el index del 0 o espacio en blanco
+        public void MoveToRigth(int[,] value, int row, int col) //Recibe el puzle actual y la posición del cursor
         {
             if (col + 1 <= cols -1)
             {
@@ -168,7 +169,7 @@ namespace Labyrinth
         }
 
         //Mover a la Izquierda y obtener hijos posibles
-        public void MoveToLEft(int[,] value, int row, int col) //Recibe el puzle actual y el index del 0 o espacio en blanco
+        public void MoveToLEft(int[,] value, int row, int col)  //Recibe el puzle actual y la posición del cursor
         {
             if (col - 1 >= 0)
             {
@@ -193,7 +194,7 @@ namespace Labyrinth
         }
 
         //Mover Arriba y obtener hijos posibles
-        public void MoveToUp(int[,] value, int row, int col)//Recibe el puzle actual y el index del 0 o espacio en blanco
+        public void MoveToUp(int[,] value, int row, int col)  //Recibe el puzle actual y la posición del cursor
         {
             if (row - 1 >= 0)
             {
@@ -218,7 +219,7 @@ namespace Labyrinth
         }
 
         //Mover Abajo y obtener hijos posibles
-        public void MoveToDown(int[,] value, int row, int col) //Recibe el puzle actual y el index del 0 o espacio en blanco
+        public void MoveToDown(int[,] value, int row, int col)  //Recibe el puzle actual y la posición del cursor
         {
             if (row + 1 <= rows -1 )
             {
