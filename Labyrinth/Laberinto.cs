@@ -29,15 +29,14 @@ namespace Labyrinth
         public void Readlabyrinth()
         {
             Console.WriteLine("Nombre del archivo generador de laberinto: ");
-            //string name = Console.ReadLine();
+            string name = Console.ReadLine();
 
             string line;
             int counterRows = 0;
 
             try
-            {
-                System.IO.StreamReader file = new System.IO.StreamReader("example1.txt");
-                //                System.IO.StreamReader file = new System.IO.StreamReader(name);
+            {                
+                System.IO.StreamReader file = new System.IO.StreamReader(name);
                 while (!file.EndOfStream)
                 {
                     line = file.ReadLine();

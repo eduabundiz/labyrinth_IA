@@ -12,10 +12,11 @@ namespace Labyrinth
         public void mostrarMenu()
         {
             int opc = 0;
-            Stopwatch timerMeasure = new Stopwatch();
+            
 
             do
             {
+                
                 lab.Readlabyrinth(); //Lectura del archivo .txt para agregarlo a nuestra matriz
                 Console.WriteLine(" \t 8 puzzle - Algoritmos de búsqueda\n" +
                     "1) Amplitud\n" +
@@ -23,6 +24,7 @@ namespace Labyrinth
                     "3) Profundidad iterativa\n" +
                     "4) Salir");
                 opc = Convert.ToInt16(Console.ReadLine());
+                Stopwatch timerMeasure = new Stopwatch();
 
                 switch (opc)
                 {
@@ -102,8 +104,7 @@ namespace Labyrinth
             //Puzzle Inicial
             Node root = new Node(lab.getMatrix(), lab.getRows(), lab.getCols());   //Envia el puzzle inicial a la clase
             //int[] puzzle_initial = { 1, 0, 2, 3, 5, 6, 4, 7, 8 };
-            
-            Console.WriteLine("Puzzle Inicial");
+                        
             UninformedSearch ui = new UninformedSearch();
 
             List<Node> solution = ui.DeepFirstSearchIterative(root);

@@ -114,7 +114,7 @@ namespace Labyrinth
             int profundidad = 1;
             Node currentNode = root;
 
-            while (!goalFound && profundidad < 40)
+            while (!goalFound && profundidad < 200)
             {
                 //currentNode.ExpandNode(); //  Est_abiertos.inicializar()
                 OpenList = new List<Node>(); //  Est_abiertos.inicializar()
